@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "MemoryGame",
+    "slug": "MemoryGame",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
