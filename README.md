@@ -58,17 +58,17 @@ You can find those design mockups in the (`./images/mockups`) folder within this
 |                                    Select Difficulty                                     |                                       Core Game                                        |
 | :--------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 |             ![Yara-NTester](images/mockups/01_select-difficulty-screen.png)              |                    ![Yara-NTester](images/mockups/02_core-game.png)                    |
-| ![Yara-NTester](images/mockups/03-medium-difficulty.png 'Additional feature (3x4 Grid)') | ![Yara-NTester](images/mockups/03-hard-difficulty.png 'Additional feature (4x4 Grid)') |
+| ![Yara-NTester](images/mockups/03-medium-difficulty.png "Additional feature (3x4 Grid)") | ![Yara-NTester](images/mockups/03-hard-difficulty.png "Additional feature (4x4 Grid)") |
 
 ## Card Tile Images
 
-You can find those tile images in the (`./images/tileImages`) folder within this project.
+You can find those tile images in the (`./src/assets/img`) folder within this project.
 
-|                                                        |                                                     |                                                               |
-| :----------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------------------------: |
-| ![Yara-NTester](images/tileImages/01_Yara-NTester.png) | ![Yara-YaraTera](images/tileImages/02_YaraTera.png) |      ![Yara-YaraBela](images/tileImages/03_YaraBela.png)      |
-|  ![Yara-YaraVita](images/tileImages/04_YaraVita.png)   | ![Yara-YaraVera](images/tileImages/05_YaraVera.png) |      ![Yara-YaraRega](images/tileImages/06_YaraRega.png)      |
-|  ![Yara-YaraMila](images/tileImages/07_YaraMila.png)   | ![Yara-YaraLiva](images/tileImages/08_YaraLiva.png) | ![Yara-YaraPrideLogo](images/tileImages/09_YaraPrideLogo.png) |
+|                                                     |                                                  |                                                            |
+| :-------------------------------------------------: | :----------------------------------------------: | :--------------------------------------------------------: |
+| ![Yara-NTester](src/assets/img/01_Yara-NTester.png) | ![Yara-YaraTera](src/assets/img/02_YaraTera.png) |      ![Yara-YaraBela](src/assets/img/03_YaraBela.png)      |
+|  ![Yara-YaraVita](src/assets/img/04_YaraVita.png)   | ![Yara-YaraVera](src/assets/img/05_YaraVera.png) |      ![Yara-YaraRega](src/assets/img/06_YaraRega.png)      |
+|  ![Yara-YaraMila](src/assets/img/07_YaraMila.png)   | ![Yara-YaraLiva](src/assets/img/08_YaraLiva.png) | ![Yara-YaraPrideLogo](src/assets/img/09_YaraPrideLogo.png) |
 
 ## Finished?
 
