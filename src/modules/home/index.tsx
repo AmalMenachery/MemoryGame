@@ -33,7 +33,7 @@ const generateCards = () => {
   });
 };
 
-const Home = () => {
+const Home: React.FC = () => {
   const [cards, setCards] = useState<Card[]>(generateCards());
   const [selectedCard, setSelectedCard] = useState<Card | null>(null);
 
@@ -86,7 +86,7 @@ const Home = () => {
     <View style={styles.container}>
       <Title>Memory Game</Title>
       <View style={styles.resetView}>
-        <Button label="Refresh" onPress={resetGame} icon={<Refresh />} />
+        <Button label="New Game" onPress={resetGame} icon={<Refresh />} />
       </View>
       <FlatList
         data={cards}
