@@ -1,4 +1,4 @@
-import { TouchableOpacity, Image } from "react-native";
+import { TouchableOpacity, Image, Text } from "react-native";
 import { styles } from "./card.styles";
 
 interface CardProps {
@@ -11,6 +11,10 @@ export const Card: React.FC<CardProps> = ({ card, onPress }) => (
     style={[styles.card, card.visible && styles.cardVisible]}
     onPress={() => !card.visible && onPress(card)}
   >
-    {card.visible && <Image style={styles.cardImg} source={card.image} />}
+    {card.visible ? (
+      <Image style={styles.cardImg} source={card.image} />
+    ) : (
+      <Text style={styles.textStyle}>?</Text>
+    )}
   </TouchableOpacity>
 );
