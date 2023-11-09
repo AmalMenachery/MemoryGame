@@ -8,6 +8,8 @@ _Note: If you can, please avoid adding/using other libraries._
 
 We hope it will be fun and wish you good luck! 🙂
 
+#### PS: [Amal] I have used the latest React Native in accordance with time. Also some theme colors from the website. 🙂
+
 ## Task Description
 
 Build a small memory card game (if the game name doesn’t ring a bell, here is an article explaining the concept: [Memory (card game)](<https://en.wikipedia.org/wiki/Concentration*(card_game)>))
