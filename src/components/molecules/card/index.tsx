@@ -8,9 +8,14 @@ import Animated, {
 interface CardProps {
   card: Card;
   onPress: Function;
+  disabled: boolean;
 }
 
-export const Card: React.FC<CardProps> = ({ card, onPress }) => {
+export const Card: React.FC<CardProps> = ({
+  card,
+  onPress,
+  disabled = false,
+}) => {
   const animStyle = useAnimatedStyle(() => {
     const spinVal = card.visible ? 180 : 0;
     return {
@@ -27,11 +32,12 @@ export const Card: React.FC<CardProps> = ({ card, onPress }) => {
       <TouchableOpacity
         style={[styles.card, card.visible && styles.cardVisible]}
         onPress={() => !card.visible && onPress(card)}
+        disabled={disabled}
       >
         {card.visible ? (
-          <Image style={styles.cardImg} source={card.image} />
+          <Image key={card.id} style={[styles.cardImg, { transform: [{ rotateY: '180deg' }] }]} source={card.image} />
         ) : (
-          <Text style={styles.textStyle}>?</Text>
+          <Text  key={card.id} style={styles.textStyle}>?</Text>
         )}
       </TouchableOpacity>
     </Animated.View>

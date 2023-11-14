@@ -15,5 +15,5 @@ export default StyleSheet.create({
   resetButtonText: {
     fontSize: 16,
   },
-  resetView:{ marginBottom: 12, width: "34%" }
+  resetView:{ marginBottom: 24, width: "34%" }
 });

@@ -5,6 +5,6 @@ export const styles = StyleSheet.create({
   fontStyles: {
     fontSize: 32,
     color: '#00205B',
-    margin: 48,
+    margin: 24,
   },
 });
